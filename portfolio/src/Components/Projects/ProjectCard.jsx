@@ -30,22 +30,24 @@ export default function ProjectCard({ project }) {
           ))}
         </div>
       </CardContent>
-      <CardActions sx={{ justifyContent: "center" }}>
-        <Button
-          size="medium"
-          href={project.url}
-          target="_blank"
-          rel="noopener noreferrer"
-          sx={{
-            backgroundColor: "#19376d",
-            color: "#fff",
-            margin: "0 auto",
-            "&:hover": { backgroundColor: "#ffde21", color: "#000" },
-          }}
-        >
-          View Project
-        </Button>
-      </CardActions>
+      {project?.url && (
+        <CardActions sx={{ justifyContent: "center" }}>
+          <Button
+            size="medium"
+            href={project?.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            sx={{
+              backgroundColor: "#19376d",
+              color: "#fff",
+              margin: "0 auto",
+              "&:hover": { backgroundColor: "#ffde21", color: "#000" },
+            }}
+          >
+            View Project
+          </Button>
+        </CardActions>
+      )}
     </Card>
   );
 }

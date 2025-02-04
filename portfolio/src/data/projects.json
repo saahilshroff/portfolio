@@ -3,11 +3,11 @@
         "category":"Code & Development",
         "obj": [
             {
-                "image": "getgreen.png",
+                "image": "portfolio.png",
                 "title":"Personal Portfolio",
                 "description":"Developed a personal portfolio website using React, JavaScript, and CSS, showcasing projects, skills, and experiences.",
                 "skills": ["React", "JavaScript", "CSS", "UI/UX"],
-                "url":""
+                "url":"https://github.com/saahilshroff/portfolio"
             },
             {
                 "image": "talk-to-db.gif",
