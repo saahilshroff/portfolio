@@ -1,0 +1,110 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 72px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.categories {
+  display: flex;
+  flex-direction: row;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  gap: 12px;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style-type: none;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 72px;
+  width: 198px;
+  background-color: var(--color-text);
+  border: 2px solid var(--color-text);
+  font-size: 24px;
+
+  &:hover {
+    background-color: var(--color-yellow);
+    color: black;
+    cursor: pointer;
+  }
+}
+
+.active {
+  background-color: var(--color-primary);
+  color: var(--color-text);
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 8px;
+  margin-top: 24px;
+  justify-items: auto;
+}
+
+.skillsection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-width: 100%;
+  margin-top: 24px;
+}
+
+.pill {
+  white-space: nowrap;
+  border-radius: 8px;
+  background-color: var(--color-yellow) !important;
+  color: black !important;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--color-text);
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    margin-top: 56px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .categories {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .button {
+    height: 48px;
+    width: 144px;
+    font-size: 18px;
+  }
+
+  .projects {
+    gap: 4px;
+  }
+
+  .skillsection {
+    gap: 4px;
+  }
+
+  .pill {
+    font-size: 12px;
+  }
+}

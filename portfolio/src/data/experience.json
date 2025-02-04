@@ -1,0 +1,85 @@
+[
+    {
+        "role": "Product Owner",
+        "org": "Get Green",
+        "startDate": "September 2024",
+        "endDate": "Present",
+        "experiences": [
+            "Leading the development of a 0-to-1 B2B web application using React.js and Node.js.",
+            "Prioritizing product backlog and features using the MoSCoW method to drive MVP development.",
+            "Analyzing mobile user interactions and collaborating with the UI/UX team to design Figma prototypes."
+        ],
+        "image": "getgreen.png"
+    },
+    {
+        "role": "Software & Product Intern",
+        "org": "American Express Global Business Travel (Egencia)",
+        "startDate": "June 2023",
+        "endDate": "September 2024",
+        "experiences": [
+            "Developed an internal search web application, reducing hotel search time by integrating three RESTful APIs.",
+            "Identified a 40% inventory gap in high-demand hotels across eight global cities by analyzing 3B+ booking records using SQL in a Snowflake data warehouse.",
+            "Created an internal geo-location web application, integrating Google Maps APIs with React and JavaScript.",
+            "Conducted market analysis of 6 competitors, aligning pricing features with California's transparency regulations."
+        ],
+        "image": "amexgbt.png"
+    },
+    {
+        "role": "Graduate Student, Information Management",
+        "org": "University of Washington",
+        "startDate": "September 2022",
+        "endDate": "June 2024",
+        "experiences": [
+            "Recipient of the  William E. Henry Scholarship for a well-rounded academic performance.",
+            
+            "Product Coursework: Product Management, Product Strategy.",
+            "Data Coursework: Data Science, Machine Learning, Data Visualization.",
+            "UX/UI: Designing User Experience, Information Architecture."
+        ],
+        "image": "uw.png"
+    },
+    {
+        "role": "Business Technology Analyst",
+        "org": "Deloitte Consulting (US India)",
+        "startDate": "January 2022",
+        "endDate": "September 2022",
+        "experiences": [
+            "Led financial data migration from on-premises systems to the OneStream Cloud Enterprise Performance Management (EPM) tool.",
+            "Designed SQL queries for data analysis and leveraged Power BI for reporting and visualization."
+        ],
+        "image": "deloitte.png"
+    },
+    {
+        "role": "Embedded Software Engineer",
+        "org": "L&T Technology Services",
+        "startDate": "August 2019",
+        "endDate": "December 2021",
+        "experiences": [
+            "Supported Philips Lifeline's GoSafe 2 medical alert system development for senior safety.",
+            "Automated software release workflows using Python, improving efficiency.",
+            "Engineered security features for over-the-air (OTA) software updates for the GoSafe 2 product."
+        ],
+        "image": "ltts.png"
+    },
+    {
+        "role": "Research Assistant",
+        "org": "Indian Institute of Science, Bangalore",
+        "startDate": "January 2019",
+        "endDate": "July 2019",
+        "experiences": [
+            "Assisted Dr. Uttam Pal in PhD research on cancer detection using near-infrared spectroscopy.",
+            "Designed and developed hardware circuits for a portable cancer detection device."
+        ],
+        "image": "iisc.png"
+    },
+    {
+        "role": "Undergraduate Student, Electronics and Communication Engineering",
+        "org": "Manipal Institute of Technology",
+        "startDate": "July 2015",
+        "endDate": "July 2019",
+        "experiences": [
+            "Member of RoboManipal (Robotics Team), served as Management Head."
+        ],
+        "image": "mit.png"
+    }
+]

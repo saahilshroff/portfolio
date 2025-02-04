@@ -1,0 +1,85 @@
+[
+    {
+        "category":"Code & Development",
+        "obj": [
+            {
+                "image": "getgreen.png",
+                "title":"Personal Portfolio",
+                "description":"Developed a personal portfolio website using React, JavaScript, and CSS, showcasing projects, skills, and experiences.",
+                "skills": ["React", "JavaScript", "CSS", "UI/UX"],
+                "url":""
+            },
+            {
+                "image": "talk-to-db.gif",
+                "title":"Talk to Database",
+                "description":"AI application that connects to your SQL database. Instead of running queries, you can simply ask the AI chatbot to find data for you.",
+                "skills": ["Python", "LLM", "GPT", "Vector Database", "Streamlit", "SQL"],
+                "url":"https://github.com/saahilshroff/text-to-SQL"
+            },
+            {
+                "image": "rag-project.gif",
+                "title":"Personal Retrieval Augmented Generation (RAG) Assistant",
+                "description":"Large Langugae Based (LLM) RAG assistant that retrieves information from a database and generates a response based on the user's query.",
+                "skills": ["Python", "LLM", "RAG", "GPT", "Vector Database", "Streamlit"],
+                "url":"https://github.com/saahilshroff/rag-system"
+            }
+        ]
+    },
+    {
+        "category":"Data Analytics",
+        "obj": [
+            {
+                "image": "Zillow-analytics.png",
+                "title":"Zillow Data Pipeline",
+                "description":"End-to-end data pipeline that extracts housing data from Zillow Rapid API Hub (JSON format), transforms it, and performs analytics using Airflow and AWS Services",
+                "skills": ["Airflow", "AWS", "Python"],
+                "url":"https://github.com/saahilshroff/zillow-airflow-analytics"
+            },
+            {
+                "image": "restaurant-business.png",
+                "title":"Restaurant Business Analysis",
+                "description":"Analyzed business data of a local pizza restaurant using SQL & Power BI to identify key performance metrics and provide recommendations for improvement.",
+                "skills": ["SQL", "Power BI"],
+                "url":"https://app.powerbi.com/groups/me/reports/7a953ee9-0df8-4623-8339-0050712e4b0b/aa49eea88ebb48005539?experience=power-bi"
+            }
+        ]
+    },
+    {
+        "category":"Product Management",
+        "obj": [
+            {
+                "image": "Boarded.png",
+                "title":"UW-Go : Stress-free bus riding experience",
+                "description":"UW-Go is a mobile user-experience that reminds users of their destination stop and provides a stress-free bus riding experience.",
+                "skills": ["Product Management", "MVP", "Market Analysis", "Figma Prototyping", "User Research","A/B Testing"],
+                "url":"https://youtu.be/BfX5qasgqSE"
+            },
+            {
+                "image": "instacart.png",
+                "title":"InstaCart Product Strategy (2024-2027)",
+                "description":"Developed a 3-year product strategy for InstaCart, focusing on improving the user experience, increasing customer retention, and expanding the customer base.",
+                "skills": ["Product Strategy", "Collaboration"],
+                "url":"https://drive.google.com/file/d/1ro04o12NKP-j_Y_Ok_K1aXrv-8gdAh1S/view?usp=sharing"
+            },
+            {
+                "image": "zillow.png",
+                "title":"Zillow-Relocate",
+                "description":"Zillow Relocate connects users with professional movers, simplifying the moving process with tailored recommendations and booking options",
+                "skills": ["Product Management", "MVP", "Market Analysis"],
+                "url":"https://drive.google.com/file/d/1cI3JkrDASZuGOIefv4p2jmu1VnE-Ak_X/view?usp=sharing"
+            }
+        ]
+    },
+    {
+        "category":"Research & Publication",
+        "obj": [
+            {
+                "image": "research.png",
+                "title":"Towards a Portable Platform Integrated With Multispectral Noncontact Probes for Delineating Normal and Breast Cancer Tissue Based on Near-Infrared Spectroscopy",
+                "description":"A portable cancer detection platform that can differentiate breast cancer tissues.",
+                "skills": ["Translational Research","Med-tech", "Biomedical Engineering","Hardware design","PCB Design"],
+                "url":"https://drive.google.com/file/d/1yMlfg9HVfQoNuQHoP4xALun6ynwVPUUl/view"
+            }
+        ]
+    }
+]
